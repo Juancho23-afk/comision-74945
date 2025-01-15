@@ -1,0 +1,172 @@
+/*MAIN DE PAGINA PRINCIPÁL*/
+.subtitulo{
+    margin-top: 50px;
+}
+
+.subtitulo{
+    margin-bottom: 5px;
+}
+
+.subtitulo{
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/pavel-untilov-0ZEn9RKVYNg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.subtitulo h1{
+    font-size: 40px;
+}
+.subtitulo{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+.carousel-inner img{
+    object-fit: cover;
+}
+
+.boton{
+    background-color: yellow;
+    border: none;
+    color: black;
+    padding: 15px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+
+.boton{ 
+    &:hover{
+    background-color: black;
+    color: white;}
+}
+
+.contenedor-mercaderia div{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.mercaderia h3{
+    color: black;
+}
+
+.mercaderia p{
+    color: black;
+}
+
+.mercaderia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.contenedor-bebidas div{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.mercaderia-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.mercaderia-1{
+    border: 2px solid black;
+}
+
+.mercaderia{
+    border: 2px solid black;
+}
+
+.bebidas{
+    width: 100px;
+    height: 300px;
+}
+
+.chocolates{
+    width: 300px;
+    height: 200px;
+}
+
+main{
+    background-color: white;
+}
+
+main section div div img{
+    width: 300px;
+    height: 300px;
+}
+
+/*MAIN DE PAGINA PRODUCTOS*/
+main h1{
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 20px;
+}
+
+.subtitulo-productos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+main h3{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.subtitulo-productos img{
+    width: 350px;
+    height: 400px;
+    
+}
+
+.productos-grid{
+    background-color: black;
+}
+
+.productos-grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-auto-rows: 250px;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.grid-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-1{
+    grid-row: span 2;
+}
+
+.img-2{
+    grid-row: span 2;
+}

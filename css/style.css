@@ -194,31 +194,7 @@
     }
 
     /*---------------------------------Productos----------------------------------*/
-    .inicio-productos {
-        font-family: "Poppins", sans-serif;
-    }
-    .inicio-productos header{
-        background-color: black;
-    }
-    .inicio-productos header h1{
-        text-align: center;
-        color: white;
-    }
-    .inicio-productos header div nav ul li a{
-        text-decoration: none;
-        color: white;
-    }
-    .inicio-productos header div nav ul li{
-        list-style: none;
-    }
-    .inicio-productos header h2{
-        text-align: center;
-        color: white;
-        }
-        
-    .iniciocho-productos h2{
-        font-size: 40px;
-    } 
+    
     /*---------------------------------MAIN----------------------------------*/
     main h1{
         text-align: center;

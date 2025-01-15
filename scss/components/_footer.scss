@@ -1,0 +1,47 @@
+footer{
+    background-color: black;
+    }
+
+footer{
+    padding: 5px;
+}
+
+footer ul{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 14px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+footer ul li{
+    list-style: none;
+    width: 60%;
+}
+
+footer div img{
+    display: grid;
+    place-self: center;
+    width: 200px;
+    height: 100px;
+}
+footer div p{
+    text-align: center;
+    color: blue;
+}
+
+footer .iconos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer i{
+    font-size: 40px;
+    color: white;
+    margin: 5px;
+}
