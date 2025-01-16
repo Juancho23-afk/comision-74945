@@ -170,3 +170,94 @@ main h3{
 .img-2{
     grid-row: span 2;
 }
+
+/*MAIN DE PAGINA BEBIDAS*/
+.subtitulo-bebidas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.subtitulo-bebidas img{
+    width: 400px;
+    height: 500px;
+}
+
+.bebidas-1 div{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+    margin: 100px;
+}
+
+.bebidas-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.bebidas-2{
+    border: 2px solid black;
+}
+
+/*MAIN DE PAGINA CONTACTOS*/
+.trabaja{
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px
+}
+
+.trabaja section div h2{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+.trabaja div p{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+.trabaja p{
+    color: black;
+    font-size: 20px;
+}
+.trabaja section div form{
+    background-color: wheat;
+    padding: 50px;
+    border-radius: 10px;
+}
+.trabaja section div{
+    margin-bottom: 10px;
+    text-align: left; 
+}
+.trabaja section form{
+    background-color: wheat;
+    border: solid;
+    border-radius: 20px;
+    border-width: 0.2;
+    padding: 5px;
+}
+/*MAIN DE PAGINA NOSOTROS*/
+.nosotros{
+    margin-top: 80px;
+}
+.nosotros div{
+    margin-right: 15px;
+    margin-left: 30px;
+}
+.nosotros section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.nosotros img{
+    width: 400px;
+    height: 500px;
+}
