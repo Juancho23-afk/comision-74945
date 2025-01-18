@@ -1,5 +1,5 @@
- /*---------------------------------RESPONSIVE PAG 1----------------------------------*/
- @media screen and (max-width:749px){
+/*---------------------------------RESPONSIVE PAG 1----------------------------------*/
+@media screen and (max-width:749px){
     .contenedor-bebidas div{
         flex-direction: column;
     }
@@ -37,6 +37,19 @@
         flex-direction: column;
     }
     .subtitulo-productos img{
+        display: none;
+    }
+}
+
+/*---------------------------------RESPONSIVE PAG BEBIDAS----------------------------------*/
+@media screen and (max-width:760px){
+    .subtitulo-bebidas img{
+        display: none;
+    }
+}
+/*---------------------------------RESPONSIVE PAG NOSOTROS----------------------------------*/
+@media screen and (max-width:760px){
+    .nosotros section img{
         display: none;
     }
 }
