@@ -1,0 +1,16 @@
+//*Extends
+%text-center{
+    text-align: center;
+}
+%border-solid {
+    border: 2px solid wheat;
+}
+
+//*Mixins
+@mixin flex ($flex, $direction, $justify, $align, $wrap){
+    display: $flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+    flex-wrap: $wrap;
+}
