@@ -5,7 +5,8 @@
 }
 
 .mercaderia-1, .mercaderia {
-  border: 2px solid wheat;
+  border: 6px double #9b59b6;
+  border-radius: 15px;
 }
 
 * {
@@ -94,6 +95,22 @@ body {
 }
 
 .mercaderia {
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0, 3s ease;
+}
+.mercaderia:hover {
+  transform: scale(1.04);
+}
+.mercaderia:hover img, .mercaderia:hover h3, .mercaderia:hover p, .mercaderia:hover button {
+  transform: scale(1.1);
+}
+.mercaderia img, .mercaderia h3, .mercaderia p, .mercaderia button {
+  transition: transform 0, 3s ease;
+}
+
+.mercaderia {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -115,6 +132,22 @@ body {
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.mercaderia-1 {
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0, 3s ease;
+}
+.mercaderia-1:hover {
+  transform: scale(1.04);
+}
+.mercaderia-1:hover img, .mercaderia-1:hover h3, .mercaderia-1:hover p, .mercaderia-1:hover button {
+  transform: scale(1.1);
+}
+.mercaderia-1 img, .mercaderia-1 h3, .mercaderia-1 p, .mercaderia-1 button {
+  transition: transform 0, 3s ease;
 }
 
 .bebidas {
@@ -153,13 +186,14 @@ main h3 {
   margin-bottom: 15px;
 }
 
-.subtitulo-productos img {
-  width: 350px;
-  height: 400px;
+.subtitulo-productos p {
+  margin-left: 20px;
 }
 
-.productos-grid {
-  background-color: black;
+.subtitulo-productos img {
+  margin: 20px;
+  width: 350px;
+  height: 400px;
 }
 
 .productos-grid {
@@ -168,13 +202,21 @@ main h3 {
   grid-template-columns: 1fr 1fr;
   grid-auto-rows: 250px;
   gap: 15px;
-  margin-bottom: 10px;
+}
+
+main h2 {
+  margin-top: 30px;
 }
 
 .grid-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transition: transform 0, 3s ease;
+}
+
+.grid-img img:hover {
+  transform: scale(1.1);
 }
 
 .img-1 {
@@ -200,6 +242,10 @@ main h3 {
   height: 500px;
 }
 
+.bebidas-1 h2 {
+  margin-bottom: 20px;
+}
+
 .bebidas-1 {
   display: flex;
   flex-direction: column;
@@ -219,6 +265,22 @@ main h3 {
   display: flex;
   flex-wrap: wrap;
   gap: 200px;
+}
+
+.p-3 {
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0, 3s ease;
+}
+.p-3:hover {
+  transform: scale(1.04);
+}
+.p-3:hover img, .p-3:hover h3, .p-3:hover p, .p-3:hover button {
+  transform: scale(1.1);
+}
+.p-3 img, .p-3 h3, .p-3 p, .p-3 button {
+  transition: transform 0, 3s ease;
 }
 
 /*MAIN DE PAGINA CONTACTOS*/

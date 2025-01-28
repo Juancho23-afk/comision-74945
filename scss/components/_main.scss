@@ -62,7 +62,22 @@ h2{
 .mercaderia p{
     color: black;
 }
+.mercaderia{
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0,3s ease;
 
+    &:hover {
+        transform: scale(1.04);
+        img, h3, p, button{
+            transform: scale(1.1);
+        }
+    }
+    img, h3, p, button {
+        transition: transform 0,3s ease;
+    }
+}
 .mercaderia{
     @extend %border-solid;
     @include flex(flex, column,center, center,wrap);
@@ -81,6 +96,22 @@ h2{
     align-items: center;
     flex-wrap: wrap;
     @extend %text-center;
+}
+.mercaderia-1{
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0,3s ease;
+
+    &:hover {
+        transform: scale(1.04);
+        img, h3, p, button{
+            transform: scale(1.1);
+        }
+    }
+    img, h3, p, button {
+        transition: transform 0,3s ease;
+    }
 }
 
 .bebidas{
@@ -121,14 +152,15 @@ main h3{
     margin-bottom: 15px;
 }
 
+.subtitulo-productos p{
+    margin-left: 20px;
+}
+
 .subtitulo-productos img{
+    margin: 20px;
     width: 350px;
     height: 400px;
     
-}
-
-.productos-grid{
-    background-color: black;
 }
 
 .productos-grid{
@@ -137,13 +169,18 @@ main h3{
     grid-template-columns: 1fr 1fr; 
     grid-auto-rows: 250px;
     gap: 15px;
-    margin-bottom: 10px;
 }
-
+main h2{
+    margin-top: 30px;
+}
 .grid-img img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: transform 0,3s ease;
+}
+.grid-img img:hover{
+    transform: scale(1.1);
 }
 
 .img-1{
@@ -168,6 +205,9 @@ main h3{
     width: 400px;
     height: 500px;
 }
+.bebidas-1 h2{
+    margin-bottom: 20px;
+}
 .bebidas-1{
     display: flex;
     flex-direction: column;
@@ -186,6 +226,23 @@ main h3{
     flex-wrap: wrap;
     gap: 200px;
 }
+.p-3 {
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0,3s ease;
+
+    &:hover {
+        transform: scale(1.04);
+        img, h3, p, button{
+            transform: scale(1.1);
+        }
+    }
+    img, h3, p, button {
+        transition: transform 0,3s ease;
+    }
+}
+
 /*MAIN DE PAGINA CONTACTOS*/
 .trabaja{
     background-color: white;
