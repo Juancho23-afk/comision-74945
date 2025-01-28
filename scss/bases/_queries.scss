@@ -47,6 +47,12 @@
         display: none;
     }
 }
+@media screen and (max-width:420px){
+    .bebidas-1 .columna-1{
+        display: flex;
+        justify-content: center;
+    }
+}
 /*---------------------------------RESPONSIVE PAG NOSOTROS----------------------------------*/
 @media screen and (max-width:760px){
     .nosotros section img{
