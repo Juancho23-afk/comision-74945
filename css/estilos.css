@@ -341,11 +341,11 @@ main h2 {
   margin-bottom: 50px;
 }
 
-.nosotros section img {
+.nosotros section div img {
   margin: 20px;
 }
 
-.nosotros img {
+.nosotros section div img {
   width: 400px;
   height: 500px;
 }
@@ -384,7 +384,7 @@ footer div img {
 
 footer div p {
   text-align: center;
-  color: blue;
+  color: white;
 }
 
 footer .iconos {
