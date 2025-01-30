@@ -341,6 +341,10 @@ main h2 {
   margin-bottom: 50px;
 }
 
+.nosotros section img {
+  margin: 20px;
+}
+
 .nosotros img {
   width: 400px;
   height: 500px;
